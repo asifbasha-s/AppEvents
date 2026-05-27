@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\(PRODUCT_NAME|MARKETING_VERSION|CURRENT_PROJECT_VERSION|DEPLOYMENT_TARGET\\)\" \"/Users/sayyadasifbasha/Downloads/Swift UI/AppEvents/AppEvents.xcodeproj/project.pbxproj\" 2>/dev/null)",
+      "Read(//Users/sayyadasifbasha/Downloads/Swift UI/AppEvents/AppEvents.xcodeproj/**)",
+      "Bash(find \"/Users/sayyadasifbasha/Downloads/Swift UI/AppEvents\" -type f -name \"*.swift\" | wc -l)",
+      "Read(//Users/sayyadasifbasha/Downloads/Swift UI/AppEvents/**)",
+      "Bash(ls -la \"/Users/sayyadasifbasha/Downloads/Swift UI/AppEvents/AppEvents.docc/Resources/\" 2>/dev/null)",
+      "Read(//Users/sayyadasifbasha/Downloads/Swift UI/AppEvents/AppEvents.docc/**)"
+    ]
+  }
+}

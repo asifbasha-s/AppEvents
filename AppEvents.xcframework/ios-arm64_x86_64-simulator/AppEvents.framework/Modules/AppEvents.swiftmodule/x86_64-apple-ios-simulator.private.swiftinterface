@@ -1,0 +1,96 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AppEvents
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import CoreTelephony
+import Darwin
+import Foundation
+import MachO
+import Network
+import Security
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol AppEvent {
+  var name: Swift.String { get }
+  var eventData: [Swift.String : Any] { get }
+}
+public enum SystemEvents : AppEvents.AppEvent {
+  case appInstalled
+  case appLaunched
+  case appCrashed(reason: Swift.String, description: Swift.String, processMemory: Swift.String, processImportance: Swift.Int)
+  case appUninstalled
+  case appReInstalled
+  case appExit
+  public var name: Swift.String {
+    get
+  }
+  public var eventData: [Swift.String : Any] {
+    get
+  }
+}
+public struct AppEventsConfig {
+  public let appVersion: Swift.String
+  public let PDN: Swift.String
+  public let env: AppEvents.AppEventsConfig.Environment
+  public let sessionKey: Swift.String
+  public let userData: AppEvents.UserData?
+  public let networkData: AppEvents.NetworkData?
+  public let customAttr: [Swift.String : Any]?
+  public static let sdkVersion: Swift.String
+  public enum Environment {
+    case production
+    case test
+    public static func == (a: AppEvents.AppEventsConfig.Environment, b: AppEvents.AppEventsConfig.Environment) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(appVersion: Swift.String, PDN: Swift.String, env: AppEvents.AppEventsConfig.Environment, sessionKey: Swift.String = "-1", userData: AppEvents.UserData? = nil, networkData: AppEvents.NetworkData? = nil, customAttr: [Swift.String : Any]? = nil)
+  #endif
+}
+@_hasMissingDesignatedInitializers final public class AppEventsManager {
+  public static let shared: AppEvents.AppEventsManager
+  final public func initialize(config: AppEvents.AppEventsConfig)
+  final public func setEnv(_ env: AppEvents.AppEventsConfig.Environment)
+  final public func setAppVersion(_ version: Swift.String)
+  final public func setPDN(_ pdn: Swift.String)
+  final public func setSessionKey(_ sk: Swift.String)
+  final public func setAppSessionKey(_ ask: Swift.String)
+  final public func setUserDetailsData(_ userData: AppEvents.UserData)
+  final public func setNetworkDetails(_ networkData: AppEvents.NetworkData)
+  final public func setCustomAttr(_ attr: [Swift.String : Any])
+  final public func sendEvent(_ event: any AppEvents.AppEvent)
+  final public func sendEvent(_ eventName: Swift.String, eventType: Swift.String = "", eventData: [Swift.String : Any] = [:])
+  @objc deinit
+}
+public struct UserData {
+  public let userId: Swift.String
+  public let mobileNumber: Swift.String?
+  public let userType: Swift.String?
+  public let userCategory: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(userId: Swift.String, mobileNumber: Swift.String? = nil, userType: Swift.String? = nil, userCategory: Swift.String? = nil)
+  #endif
+}
+public struct NetworkData {
+  public let ipAddress: Swift.String
+  public let connectionType: Swift.String
+  public let connectionBandwidth: Swift.String
+  public let contentDeliveryNetwork: Swift.String
+  public let internetServiceProvider: Swift.String
+  public let networkProvider: Swift.String
+  public let city: Swift.String?
+  public let state: Swift.String?
+  public let country: Swift.String?
+  public let region: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(ipAddress: Swift.String = "", connectionType: Swift.String = "", connectionBandwidth: Swift.String = "", contentDeliveryNetwork: Swift.String = "", internetServiceProvider: Swift.String = "", networkProvider: Swift.String = "", city: Swift.String? = nil, state: Swift.String? = nil, country: Swift.String? = nil, region: Swift.String? = nil)
+  #endif
+}
+extension AppEvents.AppEventsConfig.Environment : Swift.Equatable {}
+extension AppEvents.AppEventsConfig.Environment : Swift.Hashable {}

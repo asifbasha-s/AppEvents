@@ -1,0 +1,3366 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AppEvents",
+    "printedName": "AppEvents",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "AppEvent",
+        "printedName": "AppEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents0A5EventP4nameSSvp",
+            "mangledName": "$s9AppEvents0A5EventP4nameSSvp",
+            "moduleName": "AppEvents",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents0A5EventP4nameSSvg",
+                "mangledName": "$s9AppEvents0A5EventP4nameSSvg",
+                "moduleName": "AppEvents",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppEvents.AppEvent>",
+                "sugared_genericSig": "<Self where Self : AppEvents.AppEvent>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eventData",
+            "printedName": "eventData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents0A5EventP9eventDataSDySSypGvp",
+            "mangledName": "$s9AppEvents0A5EventP9eventDataSDySSypGvp",
+            "moduleName": "AppEvents",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents0A5EventP9eventDataSDySSypGvg",
+                "mangledName": "$s9AppEvents0A5EventP9eventDataSDySSypGvg",
+                "moduleName": "AppEvents",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppEvents.AppEvent>",
+                "sugared_genericSig": "<Self where Self : AppEvents.AppEvent>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9AppEvents0A5EventP",
+        "mangledName": "$s9AppEvents0A5EventP",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SystemEvents",
+        "printedName": "SystemEvents",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appInstalled",
+            "printedName": "appInstalled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppEvents.SystemEvents.Type) -> AppEvents.SystemEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SystemEvents",
+                    "printedName": "AppEvents.SystemEvents",
+                    "usr": "s:9AppEvents06SystemB0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppEvents.SystemEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SystemEvents",
+                        "printedName": "AppEvents.SystemEvents",
+                        "usr": "s:9AppEvents06SystemB0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AppEvents06SystemB0O12appInstalledyA2CmF",
+            "mangledName": "$s9AppEvents06SystemB0O12appInstalledyA2CmF",
+            "moduleName": "AppEvents"
+          },
+          {
+            "kind": "Var",
+            "name": "appLaunched",
+            "printedName": "appLaunched",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppEvents.SystemEvents.Type) -> AppEvents.SystemEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SystemEvents",
+                    "printedName": "AppEvents.SystemEvents",
+                    "usr": "s:9AppEvents06SystemB0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppEvents.SystemEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SystemEvents",
+                        "printedName": "AppEvents.SystemEvents",
+                        "usr": "s:9AppEvents06SystemB0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AppEvents06SystemB0O11appLaunchedyA2CmF",
+            "mangledName": "$s9AppEvents06SystemB0O11appLaunchedyA2CmF",
+            "moduleName": "AppEvents"
+          },
+          {
+            "kind": "Var",
+            "name": "appCrashed",
+            "printedName": "appCrashed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppEvents.SystemEvents.Type) -> (Swift.String, Swift.String, Swift.String, Swift.Int) -> AppEvents.SystemEvents",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String, Swift.String, Swift.Int) -> AppEvents.SystemEvents",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SystemEvents",
+                        "printedName": "AppEvents.SystemEvents",
+                        "usr": "s:9AppEvents06SystemB0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(reason: Swift.String, description: Swift.String, processMemory: Swift.String, processImportance: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppEvents.SystemEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SystemEvents",
+                        "printedName": "AppEvents.SystemEvents",
+                        "usr": "s:9AppEvents06SystemB0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AppEvents06SystemB0O10appCrashedyACSS_S2SSitcACmF",
+            "mangledName": "$s9AppEvents06SystemB0O10appCrashedyACSS_S2SSitcACmF",
+            "moduleName": "AppEvents"
+          },
+          {
+            "kind": "Var",
+            "name": "appUninstalled",
+            "printedName": "appUninstalled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppEvents.SystemEvents.Type) -> AppEvents.SystemEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SystemEvents",
+                    "printedName": "AppEvents.SystemEvents",
+                    "usr": "s:9AppEvents06SystemB0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppEvents.SystemEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SystemEvents",
+                        "printedName": "AppEvents.SystemEvents",
+                        "usr": "s:9AppEvents06SystemB0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AppEvents06SystemB0O14appUninstalledyA2CmF",
+            "mangledName": "$s9AppEvents06SystemB0O14appUninstalledyA2CmF",
+            "moduleName": "AppEvents"
+          },
+          {
+            "kind": "Var",
+            "name": "appReInstalled",
+            "printedName": "appReInstalled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppEvents.SystemEvents.Type) -> AppEvents.SystemEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SystemEvents",
+                    "printedName": "AppEvents.SystemEvents",
+                    "usr": "s:9AppEvents06SystemB0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppEvents.SystemEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SystemEvents",
+                        "printedName": "AppEvents.SystemEvents",
+                        "usr": "s:9AppEvents06SystemB0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AppEvents06SystemB0O14appReInstalledyA2CmF",
+            "mangledName": "$s9AppEvents06SystemB0O14appReInstalledyA2CmF",
+            "moduleName": "AppEvents"
+          },
+          {
+            "kind": "Var",
+            "name": "appExit",
+            "printedName": "appExit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppEvents.SystemEvents.Type) -> AppEvents.SystemEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SystemEvents",
+                    "printedName": "AppEvents.SystemEvents",
+                    "usr": "s:9AppEvents06SystemB0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppEvents.SystemEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SystemEvents",
+                        "printedName": "AppEvents.SystemEvents",
+                        "usr": "s:9AppEvents06SystemB0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AppEvents06SystemB0O7appExityA2CmF",
+            "mangledName": "$s9AppEvents06SystemB0O7appExityA2CmF",
+            "moduleName": "AppEvents"
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents06SystemB0O4nameSSvp",
+            "mangledName": "$s9AppEvents06SystemB0O4nameSSvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents06SystemB0O4nameSSvg",
+                "mangledName": "$s9AppEvents06SystemB0O4nameSSvg",
+                "moduleName": "AppEvents",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eventData",
+            "printedName": "eventData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents06SystemB0O9eventDataSDySSypGvp",
+            "mangledName": "$s9AppEvents06SystemB0O9eventDataSDySSypGvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents06SystemB0O9eventDataSDySSypGvg",
+                "mangledName": "$s9AppEvents06SystemB0O9eventDataSDySSypGvg",
+                "moduleName": "AppEvents",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AppEvents06SystemB0O",
+        "mangledName": "$s9AppEvents06SystemB0O",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AppEvent",
+            "printedName": "AppEvent",
+            "usr": "s:9AppEvents0A5EventP",
+            "mangledName": "$s9AppEvents0A5EventP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "AppEvents"
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "AppEvents"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppEventsConfig",
+        "printedName": "AppEventsConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appVersion",
+            "printedName": "appVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents0aB6ConfigV10appVersionSSvp",
+            "mangledName": "$s9AppEvents0aB6ConfigV10appVersionSSvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents0aB6ConfigV10appVersionSSvg",
+                "mangledName": "$s9AppEvents0aB6ConfigV10appVersionSSvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PDN",
+            "printedName": "PDN",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents0aB6ConfigV3PDNSSvp",
+            "mangledName": "$s9AppEvents0aB6ConfigV3PDNSSvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents0aB6ConfigV3PDNSSvg",
+                "mangledName": "$s9AppEvents0aB6ConfigV3PDNSSvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "env",
+            "printedName": "env",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "AppEvents.AppEventsConfig.Environment",
+                "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents0aB6ConfigV3envAC11EnvironmentOvp",
+            "mangledName": "$s9AppEvents0aB6ConfigV3envAC11EnvironmentOvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "AppEvents.AppEventsConfig.Environment",
+                    "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents0aB6ConfigV3envAC11EnvironmentOvg",
+                "mangledName": "$s9AppEvents0aB6ConfigV3envAC11EnvironmentOvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sessionKey",
+            "printedName": "sessionKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents0aB6ConfigV10sessionKeySSvp",
+            "mangledName": "$s9AppEvents0aB6ConfigV10sessionKeySSvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents0aB6ConfigV10sessionKeySSvg",
+                "mangledName": "$s9AppEvents0aB6ConfigV10sessionKeySSvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userData",
+            "printedName": "userData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppEvents.UserData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserData",
+                    "printedName": "AppEvents.UserData",
+                    "usr": "s:9AppEvents8UserDataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents0aB6ConfigV8userDataAA04UserE0VSgvp",
+            "mangledName": "$s9AppEvents0aB6ConfigV8userDataAA04UserE0VSgvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AppEvents.UserData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserData",
+                        "printedName": "AppEvents.UserData",
+                        "usr": "s:9AppEvents8UserDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents0aB6ConfigV8userDataAA04UserE0VSgvg",
+                "mangledName": "$s9AppEvents0aB6ConfigV8userDataAA04UserE0VSgvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkData",
+            "printedName": "networkData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppEvents.NetworkData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkData",
+                    "printedName": "AppEvents.NetworkData",
+                    "usr": "s:9AppEvents11NetworkDataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents0aB6ConfigV11networkDataAA07NetworkE0VSgvp",
+            "mangledName": "$s9AppEvents0aB6ConfigV11networkDataAA07NetworkE0VSgvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AppEvents.NetworkData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkData",
+                        "printedName": "AppEvents.NetworkData",
+                        "usr": "s:9AppEvents11NetworkDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents0aB6ConfigV11networkDataAA07NetworkE0VSgvg",
+                "mangledName": "$s9AppEvents0aB6ConfigV11networkDataAA07NetworkE0VSgvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customAttr",
+            "printedName": "customAttr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents0aB6ConfigV10customAttrSDySSypGSgvp",
+            "mangledName": "$s9AppEvents0aB6ConfigV10customAttrSDySSypGSgvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents0aB6ConfigV10customAttrSDySSypGSgvg",
+                "mangledName": "$s9AppEvents0aB6ConfigV10customAttrSDySSypGSgvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents0aB6ConfigV10sdkVersionSSvpZ",
+            "mangledName": "$s9AppEvents0aB6ConfigV10sdkVersionSSvpZ",
+            "moduleName": "AppEvents",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents0aB6ConfigV10sdkVersionSSvgZ",
+                "mangledName": "$s9AppEvents0aB6ConfigV10sdkVersionSSvgZ",
+                "moduleName": "AppEvents",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Environment",
+            "printedName": "Environment",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "production",
+                "printedName": "production",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AppEvents.AppEventsConfig.Environment.Type) -> AppEvents.AppEventsConfig.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "AppEvents.AppEventsConfig.Environment",
+                        "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AppEvents.AppEventsConfig.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "AppEvents.AppEventsConfig.Environment",
+                            "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO10productionyA2EmF",
+                "mangledName": "$s9AppEvents0aB6ConfigV11EnvironmentO10productionyA2EmF",
+                "moduleName": "AppEvents"
+              },
+              {
+                "kind": "Var",
+                "name": "test",
+                "printedName": "test",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AppEvents.AppEventsConfig.Environment.Type) -> AppEvents.AppEventsConfig.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "AppEvents.AppEventsConfig.Environment",
+                        "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AppEvents.AppEventsConfig.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "AppEvents.AppEventsConfig.Environment",
+                            "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO4testyA2EmF",
+                "mangledName": "$s9AppEvents0aB6ConfigV11EnvironmentO4testyA2EmF",
+                "moduleName": "AppEvents"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "AppEvents.AppEventsConfig.Environment",
+                    "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "AppEvents.AppEventsConfig.Environment",
+                    "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s9AppEvents0aB6ConfigV11EnvironmentO2eeoiySbAE_AEtFZ",
+                "moduleName": "AppEvents",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO9hashValueSivp",
+                "mangledName": "$s9AppEvents0aB6ConfigV11EnvironmentO9hashValueSivp",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO9hashValueSivg",
+                    "mangledName": "$s9AppEvents0aB6ConfigV11EnvironmentO9hashValueSivg",
+                    "moduleName": "AppEvents",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s9AppEvents0aB6ConfigV11EnvironmentO4hash4intoys6HasherVz_tF",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO",
+            "mangledName": "$s9AppEvents0aB6ConfigV11EnvironmentO",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(appVersion:PDN:env:sessionKey:userData:networkData:customAttr:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppEventsConfig",
+                "printedName": "AppEvents.AppEventsConfig",
+                "usr": "s:9AppEvents0aB6ConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "AppEvents.AppEventsConfig.Environment",
+                "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppEvents.UserData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserData",
+                    "printedName": "AppEvents.UserData",
+                    "usr": "s:9AppEvents8UserDataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppEvents.NetworkData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkData",
+                    "printedName": "AppEvents.NetworkData",
+                    "usr": "s:9AppEvents11NetworkDataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AppEvents0aB6ConfigV10appVersion3PDN3env10sessionKey8userData07networkK010customAttrACSS_SSAC11EnvironmentOSSAA04UserK0VSgAA07NetworkK0VSgSDySSypGSgtcfc",
+            "mangledName": "$s9AppEvents0aB6ConfigV10appVersion3PDN3env10sessionKey8userData07networkK010customAttrACSS_SSAC11EnvironmentOSSAA04UserK0VSgAA07NetworkK0VSgSDySSypGSgtcfc",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9AppEvents0aB6ConfigV",
+        "mangledName": "$s9AppEvents0aB6ConfigV",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppEvents"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "AppEvents"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppEventsManager",
+        "printedName": "AppEventsManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppEventsManager",
+                "printedName": "AppEvents.AppEventsManager",
+                "usr": "s:9AppEvents0aB7ManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents0aB7ManagerC6sharedACvpZ",
+            "mangledName": "$s9AppEvents0aB7ManagerC6sharedACvpZ",
+            "moduleName": "AppEvents",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppEventsManager",
+                    "printedName": "AppEvents.AppEventsManager",
+                    "usr": "s:9AppEvents0aB7ManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents0aB7ManagerC6sharedACvgZ",
+                "mangledName": "$s9AppEvents0aB7ManagerC6sharedACvgZ",
+                "moduleName": "AppEvents",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppEventsConfig",
+                "printedName": "AppEvents.AppEventsConfig",
+                "usr": "s:9AppEvents0aB6ConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AppEvents0aB7ManagerC10initialize6configyAA0aB6ConfigV_tF",
+            "mangledName": "$s9AppEvents0aB7ManagerC10initialize6configyAA0aB6ConfigV_tF",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setEnv",
+            "printedName": "setEnv(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "AppEvents.AppEventsConfig.Environment",
+                "usr": "s:9AppEvents0aB6ConfigV11EnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AppEvents0aB7ManagerC6setEnvyyAA0aB6ConfigV11EnvironmentOF",
+            "mangledName": "$s9AppEvents0aB7ManagerC6setEnvyyAA0aB6ConfigV11EnvironmentOF",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAppVersion",
+            "printedName": "setAppVersion(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AppEvents0aB7ManagerC03setA7VersionyySSF",
+            "mangledName": "$s9AppEvents0aB7ManagerC03setA7VersionyySSF",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPDN",
+            "printedName": "setPDN(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AppEvents0aB7ManagerC6setPDNyySSF",
+            "mangledName": "$s9AppEvents0aB7ManagerC6setPDNyySSF",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSessionKey",
+            "printedName": "setSessionKey(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AppEvents0aB7ManagerC13setSessionKeyyySSF",
+            "mangledName": "$s9AppEvents0aB7ManagerC13setSessionKeyyySSF",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAppSessionKey",
+            "printedName": "setAppSessionKey(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AppEvents0aB7ManagerC03setA10SessionKeyyySSF",
+            "mangledName": "$s9AppEvents0aB7ManagerC03setA10SessionKeyyySSF",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserDetailsData",
+            "printedName": "setUserDetailsData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UserData",
+                "printedName": "AppEvents.UserData",
+                "usr": "s:9AppEvents8UserDataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AppEvents0aB7ManagerC18setUserDetailsDatayyAA0eG0VF",
+            "mangledName": "$s9AppEvents0aB7ManagerC18setUserDetailsDatayyAA0eG0VF",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNetworkDetails",
+            "printedName": "setNetworkDetails(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkData",
+                "printedName": "AppEvents.NetworkData",
+                "usr": "s:9AppEvents11NetworkDataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AppEvents0aB7ManagerC17setNetworkDetailsyyAA0E4DataVF",
+            "mangledName": "$s9AppEvents0aB7ManagerC17setNetworkDetailsyyAA0E4DataVF",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomAttr",
+            "printedName": "setCustomAttr(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AppEvents0aB7ManagerC13setCustomAttryySDySSypGF",
+            "mangledName": "$s9AppEvents0aB7ManagerC13setCustomAttryySDySSypGF",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppEvent",
+                "printedName": "any AppEvents.AppEvent",
+                "usr": "s:9AppEvents0A5EventP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AppEvents0aB7ManagerC9sendEventyyAA0aE0_pF",
+            "mangledName": "$s9AppEvents0aB7ManagerC9sendEventyyAA0aE0_pF",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(_:eventType:eventData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AppEvents0aB7ManagerC9sendEvent_9eventType0F4DataySS_SSSDySSypGtF",
+            "mangledName": "$s9AppEvents0aB7ManagerC9sendEvent_9eventType0F4DataySS_SSSDySSypGtF",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9AppEvents0aB7ManagerC",
+        "mangledName": "$s9AppEvents0aB7ManagerC",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "AppEvents"
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "AppEvents"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "AppEvents"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserData",
+        "printedName": "UserData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userId",
+            "printedName": "userId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents8UserDataV6userIdSSvp",
+            "mangledName": "$s9AppEvents8UserDataV6userIdSSvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents8UserDataV6userIdSSvg",
+                "mangledName": "$s9AppEvents8UserDataV6userIdSSvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mobileNumber",
+            "printedName": "mobileNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents8UserDataV12mobileNumberSSSgvp",
+            "mangledName": "$s9AppEvents8UserDataV12mobileNumberSSSgvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents8UserDataV12mobileNumberSSSgvg",
+                "mangledName": "$s9AppEvents8UserDataV12mobileNumberSSSgvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userType",
+            "printedName": "userType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents8UserDataV8userTypeSSSgvp",
+            "mangledName": "$s9AppEvents8UserDataV8userTypeSSSgvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents8UserDataV8userTypeSSSgvg",
+                "mangledName": "$s9AppEvents8UserDataV8userTypeSSSgvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userCategory",
+            "printedName": "userCategory",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents8UserDataV12userCategorySSSgvp",
+            "mangledName": "$s9AppEvents8UserDataV12userCategorySSSgvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents8UserDataV12userCategorySSSgvg",
+                "mangledName": "$s9AppEvents8UserDataV12userCategorySSSgvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userId:mobileNumber:userType:userCategory:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserData",
+                "printedName": "AppEvents.UserData",
+                "usr": "s:9AppEvents8UserDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AppEvents8UserDataV6userId12mobileNumber0E4Type0E8CategoryACSS_SSSgA2Htcfc",
+            "mangledName": "$s9AppEvents8UserDataV6userId12mobileNumber0E4Type0E8CategoryACSS_SSSgA2Htcfc",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9AppEvents8UserDataV",
+        "mangledName": "$s9AppEvents8UserDataV",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkData",
+        "printedName": "NetworkData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ipAddress",
+            "printedName": "ipAddress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents11NetworkDataV9ipAddressSSvp",
+            "mangledName": "$s9AppEvents11NetworkDataV9ipAddressSSvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents11NetworkDataV9ipAddressSSvg",
+                "mangledName": "$s9AppEvents11NetworkDataV9ipAddressSSvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectionType",
+            "printedName": "connectionType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents11NetworkDataV14connectionTypeSSvp",
+            "mangledName": "$s9AppEvents11NetworkDataV14connectionTypeSSvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents11NetworkDataV14connectionTypeSSvg",
+                "mangledName": "$s9AppEvents11NetworkDataV14connectionTypeSSvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectionBandwidth",
+            "printedName": "connectionBandwidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents11NetworkDataV19connectionBandwidthSSvp",
+            "mangledName": "$s9AppEvents11NetworkDataV19connectionBandwidthSSvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents11NetworkDataV19connectionBandwidthSSvg",
+                "mangledName": "$s9AppEvents11NetworkDataV19connectionBandwidthSSvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contentDeliveryNetwork",
+            "printedName": "contentDeliveryNetwork",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents11NetworkDataV015contentDeliveryC0SSvp",
+            "mangledName": "$s9AppEvents11NetworkDataV015contentDeliveryC0SSvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents11NetworkDataV015contentDeliveryC0SSvg",
+                "mangledName": "$s9AppEvents11NetworkDataV015contentDeliveryC0SSvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "internetServiceProvider",
+            "printedName": "internetServiceProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents11NetworkDataV23internetServiceProviderSSvp",
+            "mangledName": "$s9AppEvents11NetworkDataV23internetServiceProviderSSvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents11NetworkDataV23internetServiceProviderSSvg",
+                "mangledName": "$s9AppEvents11NetworkDataV23internetServiceProviderSSvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkProvider",
+            "printedName": "networkProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents11NetworkDataV15networkProviderSSvp",
+            "mangledName": "$s9AppEvents11NetworkDataV15networkProviderSSvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents11NetworkDataV15networkProviderSSvg",
+                "mangledName": "$s9AppEvents11NetworkDataV15networkProviderSSvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "city",
+            "printedName": "city",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents11NetworkDataV4citySSSgvp",
+            "mangledName": "$s9AppEvents11NetworkDataV4citySSSgvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents11NetworkDataV4citySSSgvg",
+                "mangledName": "$s9AppEvents11NetworkDataV4citySSSgvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents11NetworkDataV5stateSSSgvp",
+            "mangledName": "$s9AppEvents11NetworkDataV5stateSSSgvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents11NetworkDataV5stateSSSgvg",
+                "mangledName": "$s9AppEvents11NetworkDataV5stateSSSgvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "country",
+            "printedName": "country",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents11NetworkDataV7countrySSSgvp",
+            "mangledName": "$s9AppEvents11NetworkDataV7countrySSSgvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents11NetworkDataV7countrySSSgvg",
+                "mangledName": "$s9AppEvents11NetworkDataV7countrySSSgvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "region",
+            "printedName": "region",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AppEvents11NetworkDataV6regionSSSgvp",
+            "mangledName": "$s9AppEvents11NetworkDataV6regionSSSgvp",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AppEvents11NetworkDataV6regionSSSgvg",
+                "mangledName": "$s9AppEvents11NetworkDataV6regionSSSgvg",
+                "moduleName": "AppEvents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(ipAddress:connectionType:connectionBandwidth:contentDeliveryNetwork:internetServiceProvider:networkProvider:city:state:country:region:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkData",
+                "printedName": "AppEvents.NetworkData",
+                "usr": "s:9AppEvents11NetworkDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AppEvents11NetworkDataV9ipAddress14connectionType0G9Bandwidth015contentDeliveryC023internetServiceProvider07networkN04city5state7country6regionACSS_S6SSgA3Ntcfc",
+            "mangledName": "$s9AppEvents11NetworkDataV9ipAddress14connectionType0G9Bandwidth015contentDeliveryC023internetServiceProvider07networkN04city5state7country6regionACSS_S6SSgA3Ntcfc",
+            "moduleName": "AppEvents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9AppEvents11NetworkDataV",
+        "mangledName": "$s9AppEvents11NetworkDataV",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppEvents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/Listeners\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 21,
+      "value": "\"ae.appevent.network\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/Listeners\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 928,
+      "length": 9,
+      "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/Listeners\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 989,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/Listeners\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 1043,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/Listeners\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 1097,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/Listeners\/NetworkMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1299,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/Listeners\/SystemEventListener.swift",
+      "kind": "BooleanLiteral",
+      "offset": 301,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/AppEventsConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
+      "length": 7,
+      "value": "\"2.2.1\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/AppEventsConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1294,
+      "length": 4,
+      "value": "\"-1\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/AppEventsKeyChain.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 14,
+      "value": "\"appEventsSDK\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/AppEventsKeyChain.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 7,
+      "value": "\"boxId\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/AppEventsKeyChain.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 30,
+      "value": "\"AppEventsKeychainErrorDomain\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/AppEventsLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 809,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/AppEventsLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 834,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/AppEventsLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 859,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/AppEventsLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 884,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/AppEventsLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1308,
+      "length": 32,
+      "value": "\"ai.videograph.appevents.logger\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/AppEventsLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1560,
+      "length": 21,
+      "value": "\"yyyy-MM-dd HH:mm:ss\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/AppEventsLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1620,
+      "length": 13,
+      "value": "\"en_US_POSIX\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/AppEventsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 389,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/AppEventsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4417,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/AppEventsManager.swift",
+      "kind": "Dictionary",
+      "offset": 4474,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/CrashReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 21,
+      "value": "\"vg_ae_crash_pending\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/CrashReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 20,
+      "value": "\"vg_ae_crash_reason\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/CrashReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 18,
+      "value": "\"vg_ae_crash_desc\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/CrashReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 455,
+      "length": 18,
+      "value": "\"vg_ae_crash_pmem\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/CrashReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 506,
+      "length": 18,
+      "value": "\"vg_ae_crash_pimp\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 1366,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 1411,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 1514,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 1568,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 1614,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 3756,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 3800,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 3883,
+      "length": 4,
+      "value": "\"-1\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4139,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 6112,
+      "length": 8,
+      "value": "\"Mobile\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 6149,
+      "length": 8,
+      "value": "\"Tablet\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 6186,
+      "length": 4,
+      "value": "\"TV\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 6219,
+      "length": 8,
+      "value": "\"Mobile\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 6366,
+      "length": 12,
+      "value": "\"smarttvapp\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 6407,
+      "length": 11,
+      "value": "\"mobileapp\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 6559,
+      "length": 8,
+      "value": "\"iphone\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 6596,
+      "length": 6,
+      "value": "\"ipad\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 6631,
+      "length": 9,
+      "value": "\"appletv\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 6839,
+      "length": 6,
+      "value": "\"tvos\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 6874,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 7033,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 7138,
+      "length": 28,
+      "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 7577,
+      "length": 9,
+      "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 10102,
+      "length": 11,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 10107,
+      "length": 1,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 10112,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 12509,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/DeviceProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 12542,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/EventDispatcher.swift",
+      "kind": "Dictionary",
+      "offset": 689,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/EventDispatcher.swift",
+      "kind": "BooleanLiteral",
+      "offset": 723,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/EventQueue.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1422,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/EventQueue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1534,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/EventQueue.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1573,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/EventQueue.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1609,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sayyadasifbasha\/Downloads\/Swift UI\/AppEvents\/AppEvents\/SessionStore.swift",
+      "kind": "StringLiteral",
+      "offset": 779,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
